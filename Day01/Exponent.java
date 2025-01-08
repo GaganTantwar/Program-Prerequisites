@@ -6,7 +6,7 @@ class Exponent {//class Exponent
     public static void main(String args[]){ //main function
 	    Scanner sc = new Scanner(System.in); //Scanner class object
 		double base =sc.nextInt();//  input variable base
-        double expo  = sc.nextInt();// input variable for expo
+                double expo  = sc.nextDouble();// input variable for expo
 		double power = Math.pow(base,expo); // finding power
 		System.out.println("Exponent : "+ power); // Exponent
 		}
