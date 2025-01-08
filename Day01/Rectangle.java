@@ -3,10 +3,10 @@
 import java.util.*;
 class Rectangle {//class Rectangle
     public static void main(String args[]){ //main function
-	    Scanner sc = new Scanner(System.in); //Scanner class object
-		int length =sc.nextInt();//  input variable for length
-        int width  = sc.nextInt();// input variable for width
-		double perimeter =2*(length+width); // finding perimeter
-		System.out.println("Perimeter of Rectangle: "+ perimeter); // Perimeter of Rectangle
-		}
+	Scanner sc = new Scanner(System.in); //Scanner class object
+	double length =sc.nextInt();//  input variable for length
+        double width  = sc.nextInt();// input variable for width
+	double perimeter =2*(length+width); // finding perimeter
+	System.out.println("Perimeter of Rectangle: "+ perimeter); // Perimeter of Rectangle
+	}
 }
