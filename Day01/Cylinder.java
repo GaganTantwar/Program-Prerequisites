@@ -3,10 +3,10 @@
 import java.util.*;
 class Cylinder {//class Cylinder
     public static void main(String args[]){ //main function
-	    Scanner sc = new Scanner(System.in); //Scanner class object
-		int radius = sc.nextInt(); //  input variable for radius of cylinder
-        int height = sc.nextInt(); //  input variable for height of cylinder	
-		double volume =  (3.14*radius*radius)*height; // finding volume of cylinder
-		System.out.println("Volume of Cylinder "+ volume); // Volume of Cylinder
+	Scanner sc = new Scanner(System.in); //Scanner class object
+	double radius = sc.nextDouble(); //  input variable for radius of cylinder
+        double height = sc.nextDouble(); //  input variable for height of cylinder	
+	double volume =  (3.14*radius*radius)*height; // finding volume of cylinder
+	System.out.println("Volume of Cylinder "+ volume); // Volume of Cylinder
 		}
 }
